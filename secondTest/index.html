@@ -7,7 +7,8 @@
 	</head>
 
 	<body>
-		
+	
+    
 		<header>
 			<nav>
 				<h1>Oregon Point Exchange</h1>
@@ -16,22 +17,33 @@
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
-					<li><a href="#">Links</a></li>
 				</ul>
 
 			
-				
 			</nav>
 		</header>
 
 		<div class = "row">
-			<div class="col">Buy Points</div>
-			<div class="col">Sell Points</div>
-			<div class="col">Donate</div>
+			<a href="#" class="col">Buy Points</a>
+			<a href="#" class="col">Sell Points</a>
+			<a href="#"class="col">Donate</a>
 		</div>
+		
 
+		
+	
+		<div id = "map"></div>
 
-		<script src="testFile.js"></script>
+		
+
+		<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+
+		<script src = testFile.js></script>
+
+   		
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6qeEwQI4ltlYOWSq0dPn_uzpC1sU1Vsk&libraries=places&callback=initAutocomplete"
+         async defer></script>
 
 		<footer>2015 My Site</footer>
 
